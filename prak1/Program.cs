@@ -10,13 +10,13 @@ namespace Project
             Car lamborghini = new Car();
             Console.WriteLine("current speed : " +
                               lamborghini.speedCurrent);
-            motorSport.go();//speed = 10
+            lamborghini.go();//speed = 10
             Console.WriteLine("current speed : " +
                               lamborghini.speedCurrent);
-            motorSport.turnLeft();//speed = 8
+            lamborghini.turnLeft();//speed = 8
             Console.WriteLine("current speed : " +
                               lamborghini.speedCurrent);
-            motorSport.go();//speed = 18
+            lamborghini.go();//speed = 18
             Console.WriteLine("current speed : " +
                               lamborghini.speedCurrent);
         }
