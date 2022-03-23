@@ -1,8 +1,8 @@
 
 class Kelvin: ISuhu
 {
-    public    int suhu;
-    public Kelvin(int suhu)
+    public    double suhu;
+    public Kelvin(double suhu)
     {
         this.suhu = suhu;
     }
@@ -17,6 +17,6 @@ class Kelvin: ISuhu
     }
     public   string toKelvin()
     {
-        return ""; // nanti dulu
+        return this.suhu + SatuanSuhu.Kelvin; // nanti dulu
     }
 }

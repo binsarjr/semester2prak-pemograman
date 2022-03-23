@@ -1,8 +1,8 @@
 
 class Celcius : ISuhu
 {
-    public   int suhu;
-    public Celcius(int suhu)
+    public   double suhu;
+    public Celcius(double suhu)
     {
         this.suhu = suhu;
     }
